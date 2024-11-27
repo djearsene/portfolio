@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.625;
+  margin: 0;
+  color: #6F6F6F;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color .3s;
+}
+
+
+.header {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.92), rgba(54, 54, 54, 0.5) 39.24%, rgba(28, 28, 28, 0.4)),
+    url() center center / cover no-repeat;
+  color: #FFF;
+}
+
+.topbar {
+  padding: 18px 20px;
+  font-size: .875rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+footer {
+  background: #383838 bottom right no-repeat;
+  font-weight: 300;
+  color: #FFF;
+  padding: 40px 0;
+}
+
+.some-section {
+  padding-top: 9px;
+}
